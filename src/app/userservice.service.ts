@@ -10,11 +10,11 @@ import {
   Firestore
 } from 'firebase/firestore';
 
-export const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyDZFbj1pkOp-F6JmJAgK5PtCXJRXmlU7dM",
   authDomain: "wedding-693e1.firebaseapp.com",
   projectId: "wedding-693e1",
-  storageBucket: "wedding-693e1.appspot.com", // fixed typo
+  storageBucket: "wedding-693e1.firebasestorage.app",
   messagingSenderId: "454434978435",
   appId: "1:454434978435:web:8dfe1d4d89aac34b64b9b6"
 };
